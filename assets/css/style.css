@@ -1,0 +1,38 @@
+:root {
+  --Strong_Cyan: #26baa4;
+  --Light_Blue: #6173ff;
+  --Dark_Grayish_Blue: #4c545d;
+  --Grayish_Blue: #9fabb2;
+}
+
+@font-face {
+  font-family: "Bai Jamjuree", sans-serif;
+  src: url("../fonts/BaiJamjuree-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Bai Jamjuree", sans-serif;
+  src: url("../fonts/BaiJamjuree-Regular.ttf");
+  font-weight: 500;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+body {
+  height: 100%;
+}
