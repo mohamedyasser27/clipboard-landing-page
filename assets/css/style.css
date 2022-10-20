@@ -23,6 +23,87 @@ html {
 }
 
 body {
+  background-image: url("../images/bg-header-mobile.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
   height: 100%;
   font-family: "Bai Jamjuree", sans-serif;
+}
+p {
+  font-size: 18px;
+}
+.heading {
+  color: var(--Dark_Grayish_Blue);
+}
+
+.description {
+  color: var(--Grayish_Blue);
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/** header */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.softawreLogo {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.companySlogan,
+.softwareDescription {
+  text-align: center;
+}
+.companySlogan {
+  font-size: calc(32px + 0.5vh);
+  font-weight: 600;
+}
+
+.donwloadBtnsContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.downloadBtn {
+  padding: 15px 80px;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.IOSBtn {
+  background-color: var(--Strong_Cyan);
+  box-shadow: 0px 3px 0px 0px rgba(34, 143, 127, 1);
+}
+
+.AndroidBtn {
+  background-color: var(--Light_Blue);
+  box-shadow: 0px 3px 0px 0px rgba(77, 91, 199, 1);
+}
+
+@media only screen and (min-width: 601px) {
+  body {
+    background-image: url("../images/bg-header-desktop.png");
+    background-size: 100%;
+  }
+  main{
+    width: 600px;
+  }
+
+  .downloadBtn {
+    padding: 15px 30px;
+  }
+  .donwloadBtnsContainer {
+    flex-direction: row;
+  }
 }
